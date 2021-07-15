@@ -1,0 +1,592 @@
+body {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100vw;
+}
+
+:root {
+  --color-primary: rgb(102, 102, 255);
+  --color-secondary: rgb(0, 0, 0);
+  --color-background: rgb(255, 255, 255);
+  --color-light: #b7caff;
+  --color-dark: #7e2beb;
+  --color-success: rgb(255, 184, 255);
+  --color-danger: #ffc0cb;
+  --color-lightest: white;
+}
+
+h6 {
+  font-size: 1.2rem;
+  color: var(--color-dark);
+}
+
+h5 {
+  font-size: 1.5rem;
+  color: var(--color-dark);
+}
+
+h4 {
+  font-size: 1.7rem;
+  color: var(--color-dark);
+}
+
+h3 {
+  font-size: 1.9rem;
+  color: var(--color-dark);
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--color-dark);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+}
+
+em {
+  color: var(--color-primary);
+}
+
+strong {
+  color: var(--color-dark);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  background-color: #ececec;
+  border: 0px;
+  transition: 0.2s;
+  border-radius: 4px;
+  width: 80px;
+  height: 25px;
+  color: var(--color-primary);
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+  border: 1px white solid;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px #8f8f8f solid;
+  margin-left: 10px;
+}
+
+::placeholder {
+  color: var(--color-light);
+}
+
+.navbar {
+  background-color: var(--color-light);
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 80px;
+  margin-left: -8px;
+  align-items: center;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.navbar nav a {
+  margin-right: 30px;
+  font-size: 2em;
+  transition: 1.2s;
+}
+
+.navbar nav a:hover {
+  color: var(--color-dark);
+}
+
+.card {
+  border: 1px black solid;
+  width: 400px;
+  min-height: 200px;
+  border-radius: 3px;
+  justify-self: center;
+  margin: 20px;
+}
+
+.cardimg {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 350px;
+}
+
+.separation {
+  background-color: white;
+  border: 1px white solid;
+  margin-right: 30px;
+  height: 35px;
+}
+
+h1 {
+  border-bottom: 1px black solid;
+  width: 35vw;
+}
+
+header h1 {
+  width: 20vw;
+}
+
+#popular {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.swatch {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.swatches {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+}
+
+:root {
+  --color-sample-0: hsl(0, 100%, 50%);
+}
+
+:root {
+  --color-sample-1: hsl(3, 100%, 50%);
+}
+
+:root {
+  --color-sample-2: hsl(6, 100%, 50%);
+}
+
+:root {
+  --color-sample-3: hsl(9, 100%, 50%);
+}
+
+:root {
+  --color-sample-4: hsl(12, 100%, 50%);
+}
+
+:root {
+  --color-sample-5: hsl(15, 100%, 50%);
+}
+
+:root {
+  --color-sample-6: hsl(18, 100%, 50%);
+}
+
+:root {
+  --color-sample-7: hsl(21, 100%, 50%);
+}
+
+:root {
+  --color-sample-8: hsl(24, 100%, 50%);
+}
+
+:root {
+  --color-sample-9: hsl(27, 100%, 50%);
+}
+
+:root {
+  --color-sample-10: hsl(30, 100%, 50%);
+}
+
+:root {
+  --color-sample-11: hsl(33, 100%, 50%);
+}
+
+:root {
+  --color-sample-12: hsl(36, 100%, 50%);
+}
+
+:root {
+  --color-sample-13: hsl(39, 100%, 50%);
+}
+
+:root {
+  --color-sample-14: hsl(42, 100%, 50%);
+}
+
+:root {
+  --color-sample-15: hsl(45, 100%, 50%);
+}
+
+:root {
+  --color-sample-16: hsl(48, 100%, 50%);
+}
+
+:root {
+  --color-sample-17: hsl(51, 100%, 50%);
+}
+
+:root {
+  --color-sample-18: hsl(54, 100%, 50%);
+}
+
+:root {
+  --color-sample-19: hsl(57, 100%, 50%);
+}
+
+:root {
+  --color-sample-20: hsl(60, 100%, 50%);
+}
+
+:root {
+  --color-sample-21: hsl(63, 100%, 50%);
+}
+
+:root {
+  --color-sample-22: hsl(66, 100%, 50%);
+}
+
+:root {
+  --color-sample-23: hsl(69, 100%, 50%);
+}
+
+:root {
+  --color-sample-24: hsl(72, 100%, 50%);
+}
+
+:root {
+  --color-sample-25: hsl(75, 100%, 50%);
+}
+
+:root {
+  --color-sample-26: hsl(78, 100%, 50%);
+}
+
+:root {
+  --color-sample-27: hsl(81, 100%, 50%);
+}
+
+:root {
+  --color-sample-28: hsl(84, 100%, 50%);
+}
+
+:root {
+  --color-sample-29: hsl(87, 100%, 50%);
+}
+
+:root {
+  --color-sample-30: hsl(90, 100%, 50%);
+}
+
+:root {
+  --color-sample-31: hsl(93, 100%, 50%);
+}
+
+:root {
+  --color-sample-32: hsl(96, 100%, 50%);
+}
+
+:root {
+  --color-sample-33: hsl(99, 100%, 50%);
+}
+
+:root {
+  --color-sample-34: hsl(102, 100%, 50%);
+}
+
+:root {
+  --color-sample-35: hsl(105, 100%, 50%);
+}
+
+:root {
+  --color-sample-36: hsl(108, 100%, 50%);
+}
+
+:root {
+  --color-sample-37: hsl(111, 100%, 50%);
+}
+
+:root {
+  --color-sample-38: hsl(114, 100%, 50%);
+}
+
+:root {
+  --color-sample-39: hsl(117, 100%, 50%);
+}
+
+:root {
+  --color-sample-40: hsl(120, 100%, 50%);
+}
+
+:root {
+  --color-sample-41: hsl(123, 100%, 50%);
+}
+
+:root {
+  --color-sample-42: hsl(126, 100%, 50%);
+}
+
+:root {
+  --color-sample-43: hsl(129, 100%, 50%);
+}
+
+:root {
+  --color-sample-44: hsl(132, 100%, 50%);
+}
+
+:root {
+  --color-sample-45: hsl(135, 100%, 50%);
+}
+
+:root {
+  --color-sample-46: hsl(138, 100%, 50%);
+}
+
+:root {
+  --color-sample-47: hsl(141, 100%, 50%);
+}
+
+:root {
+  --color-sample-48: hsl(144, 100%, 50%);
+}
+
+:root {
+  --color-sample-49: hsl(147, 100%, 50%);
+}
+
+:root {
+  --color-sample-50: hsl(150, 100%, 50%);
+}
+
+:root {
+  --color-sample-51: hsl(153, 100%, 50%);
+}
+
+:root {
+  --color-sample-52: hsl(156, 100%, 50%);
+}
+
+:root {
+  --color-sample-53: hsl(159, 100%, 50%);
+}
+
+:root {
+  --color-sample-54: hsl(162, 100%, 50%);
+}
+
+:root {
+  --color-sample-55: hsl(165, 100%, 50%);
+}
+
+:root {
+  --color-sample-56: hsl(168, 100%, 50%);
+}
+
+:root {
+  --color-sample-57: hsl(171, 100%, 50%);
+}
+
+:root {
+  --color-sample-58: hsl(174, 100%, 50%);
+}
+
+:root {
+  --color-sample-59: hsl(177, 100%, 50%);
+}
+
+:root {
+  --color-sample-60: hsl(180, 100%, 50%);
+}
+
+:root {
+  --color-sample-61: hsl(183, 100%, 50%);
+}
+
+:root {
+  --color-sample-62: hsl(186, 100%, 50%);
+}
+
+:root {
+  --color-sample-63: hsl(189, 100%, 50%);
+}
+
+:root {
+  --color-sample-64: hsl(192, 100%, 50%);
+}
+
+:root {
+  --color-sample-65: hsl(195, 100%, 50%);
+}
+
+:root {
+  --color-sample-66: hsl(198, 100%, 50%);
+}
+
+:root {
+  --color-sample-67: hsl(201, 100%, 50%);
+}
+
+:root {
+  --color-sample-68: hsl(204, 100%, 50%);
+}
+
+:root {
+  --color-sample-69: hsl(207, 100%, 50%);
+}
+
+:root {
+  --color-sample-70: hsl(210, 100%, 50%);
+}
+
+:root {
+  --color-sample-71: hsl(213, 100%, 50%);
+}
+
+:root {
+  --color-sample-72: hsl(216, 100%, 50%);
+}
+
+:root {
+  --color-sample-73: hsl(219, 100%, 50%);
+}
+
+:root {
+  --color-sample-74: hsl(222, 100%, 50%);
+}
+
+:root {
+  --color-sample-75: hsl(225, 100%, 50%);
+}
+
+:root {
+  --color-sample-76: hsl(228, 100%, 50%);
+}
+
+:root {
+  --color-sample-77: hsl(231, 100%, 50%);
+}
+
+:root {
+  --color-sample-78: hsl(234, 100%, 50%);
+}
+
+:root {
+  --color-sample-79: hsl(237, 100%, 50%);
+}
+
+:root {
+  --color-sample-80: hsl(240, 100%, 50%);
+}
+
+:root {
+  --color-sample-81: hsl(243, 100%, 50%);
+}
+
+:root {
+  --color-sample-82: hsl(246, 100%, 50%);
+}
+
+:root {
+  --color-sample-83: hsl(249, 100%, 50%);
+}
+
+:root {
+  --color-sample-84: hsl(252, 100%, 50%);
+}
+
+:root {
+  --color-sample-85: hsl(255, 100%, 50%);
+}
+
+:root {
+  --color-sample-86: hsl(258, 100%, 50%);
+}
+
+:root {
+  --color-sample-87: hsl(261, 100%, 50%);
+}
+
+:root {
+  --color-sample-88: hsl(264, 100%, 50%);
+}
+
+:root {
+  --color-sample-89: hsl(267, 100%, 50%);
+}
+
+:root {
+  --color-sample-90: hsl(270, 100%, 50%);
+}
+
+:root {
+  --color-sample-91: hsl(273, 100%, 50%);
+}
+
+:root {
+  --color-sample-92: hsl(276, 100%, 50%);
+}
+
+:root {
+  --color-sample-93: hsl(279, 100%, 50%);
+}
+
+:root {
+  --color-sample-94: hsl(282, 100%, 50%);
+}
+
+:root {
+  --color-sample-95: hsl(285, 100%, 50%);
+}
+
+:root {
+  --color-sample-96: hsl(288, 100%, 50%);
+}
+
+:root {
+  --color-sample-97: hsl(291, 100%, 50%);
+}
+
+:root {
+  --color-sample-98: hsl(294, 100%, 50%);
+}
+
+:root {
+  --color-sample-99: hsl(297, 100%, 50%);
+}
+
+:root {
+  --color-sample-100: hsl(300, 100%, 50%);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+#items {
+  border-bottom: 1px black solid;
+}
+
+/*# sourceMappingURL=styles.css.map */
